@@ -4,11 +4,11 @@ import './Navbar.css'
 
 const Navbar = () => {
     return (
-        <div className='nav-container'>
-            <nav className="navbar navbar-expand-lg bg-light">
+        <div className='nav-container sticky-top'>
+            <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
                     <div className="logo">
-                        <Link to="/home">Bluestone hotel</Link>
+                        <Link to="/home">Bluestone</Link>
                     </div>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -40,6 +40,10 @@ const Navbar = () => {
                                 <Link to="/events">Events</Link>
                             </li>
                         </ul>
+                        <div className='nav-login'>
+                            <Link to="/register">Join</Link>
+                            <Link to="/login">Signin</Link>
+                        </div>
                     </div>
                 </div>
             </nav>

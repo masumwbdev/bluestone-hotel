@@ -1,17 +1,33 @@
 .nav-container .logo a{
     text-decoration: none;
     font-size: 28px;
-    margin-right: 20px;
+    margin-right: 28px;
     font-weight: 600;
-    color: #03045E;
+    color: white;
 }
 .nav-container .logo{
     margin-bottom: 4px;
 }
 .nav-container nav ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 15px;
     font-weight: 500;
-    margin-right: 12px;
+    margin-right: 18px;
+}
+.nav-container nav{
+    border-bottom: 1px solid #03045E;
+    background-color: #03045E;
+}
+.nav-login a{
+    text-decoration: none;
+    color: white;
+    margin-left: 22px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 4px 12px;
+    font-weight: 600;
+}
+.nav-login a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
 }
