@@ -1,0 +1,22 @@
+.alert-container{
+    background-color: #FDEDA9;
+    padding: 12px 0;
+}
+.alert-container h6 a{
+    color: #2426b3;
+}
+.alert-container h6 a:hover{
+    color: #03045E;
+    cursor: pointer;
+}
+.alert-container h6 i{
+    color: rgb(170, 130, 0);
+}
+.alert .alert-icon{
+    cursor: pointer;
+    color: red;
+    font-size: 18px;
+}
+.alert-container hr{
+    margin: 0;
+}

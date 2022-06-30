@@ -15,6 +15,9 @@
     font-weight: 500;
     margin-right: 18px;
 }
+.nav-container nav ul li a:hover{
+    cursor: pointer !important;
+}
 .nav-container nav{
     border-bottom: 1px solid #03045E;
     background-color: #03045E;
@@ -30,4 +33,5 @@
 .nav-login a:hover{
     background-color: rgb(255, 255, 255);
     color: black;
+    cursor: pointer !important;
 }

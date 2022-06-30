@@ -1,4 +1,5 @@
 import React from 'react';
+import Alert from '../../components/Alert/Alert';
 import Title from '../../components/Title/Title';
 import Navbar from '../../shared/Navbar/Navbar';
 
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <Navbar />
             <Title />
+            <Alert />
         </div>
     );
 };
