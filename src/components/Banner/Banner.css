@@ -1,0 +1,21 @@
+.width-control{
+    width: 95%;
+    margin: 0 auto;
+}
+.banner-container{
+    margin-top: 30px;
+}
+.banner-container img{
+    width: 100%;
+    border-radius: 10px;
+}
+.swiper-button-next, .swiper-button-prev{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgba(0, 0, 0, 0.774);
+    width: 48px !important;
+    height: 58px !important;
+    border-radius: 4px;
+}
+.swiper-button-next:hover, .swiper-button-prev:hover{
+    background-color: rgba(36, 36, 36, 0.911);
+}
