@@ -1,0 +1,51 @@
+.display-room{
+    background-color: #F1F1F1;
+    padding: 50px 0;
+}
+.single-card {
+    position: relative;
+}
+
+.single-card img {
+    width: 100%;
+}
+
+.single-card:hover {
+    cursor: pointer;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.single-card .card-title {
+    position: absolute;
+    bottom: 10%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    left: 25%;
+    text-transform: uppercase;
+}
+
+.display-room-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+}
+
+.single-card:hover .card-title {
+    bottom: 50%;
+    transition: .5s;
+}
+.display-btn button{
+    border: 0;
+    background-color: #03045E;
+    color: white;
+    padding: 12px 22px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.display-btn button:hover{
+    opacity: .9;
+} 
